@@ -31,3 +31,16 @@ const myFunction = function(){
 }
 
 console.log(typeof hero);
+
+
+//********************************************************************************
+
+//Stack(primitive type me use hota h) and Heap(non-primitive) is se reference milta hai
+
+let myYoutubeName = "yuvidotcom" 
+
+let anotherName = myYoutubeName
+anotherName = "chaiorcode";
+
+console.log(myYoutubeName);
+console.log(anotherName);
